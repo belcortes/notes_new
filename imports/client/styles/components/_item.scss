@@ -1,7 +1,7 @@
 // Item List
 .item-list {
 	background-color: white;
-	border: 1px solid $grey;
+	border: 1px solid $gray;
 	overflow-y: scroll;
 	width: 100%;
 }
@@ -17,16 +17,16 @@
   cursor: pointer;
   padding: $space;
   border-left: $item-border-width solid transparent;
-  transition: background-color .5 ease, border-left .5 ease;
-  -moz-transition: background-color .3 ease, border-left .3 ease; /* Firefox 4 */
-  -webkit-transition: background-color .3 ease, border-left .3 ease; /* Safari and Chrome */
-  -o-transition: background-color .3 ease, border-left .3 ease; /* Opera */
-  -ms-transition: background-color .3 ease, border-left .3 ease; 
+  transition: background-color .3s ease, border-left .3s ease;
+  -moz-transition: background-color .3s ease, border-left .3s ease; /* Firefox 4 */
+  -webkit-transition: background-color .3s ease, border-left .3s ease; /* Safari and Chrome */
+  -o-transition: background-color .3s ease, border-left .3s ease; /* Opera */
+  -ms-transition: background-color .3s ease, border-left .3s ease; 
 }
 
 .item:hover {
   background-color: $light-grey;
-  border-left: $item-border-width solid $grey;
+  border-left: $item-border-width solid $gray;
 }
 
 .item--selected, .item--selected:hover {

@@ -1,6 +1,6 @@
 .editor {
 	background-color: white;
-	border: 1px solid $grey;
+	border: 1px solid $gray;
 	display: flex;
 	flex-direction: column;
 	padding: $large-space;
@@ -9,7 +9,7 @@
 
 .editor__title {
 	border: none;
-	border-bottom: 2px solid $grey;
+	border-bottom: 2px solid $gray;
 	font-size: $large-font-size;
 	margin-bottom: $large-space;
 	outline: none;
