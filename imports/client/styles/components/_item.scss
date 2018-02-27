@@ -13,6 +13,15 @@
   padding: $space;
 }
 
+.item-list__search {
+  display: flex;
+
+  input {
+    flex: 1;
+    margin: 0 $space $space $space;
+  }
+}
+
 // Item
 .item {
   cursor: pointer;
